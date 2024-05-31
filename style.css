@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(201, 201, 201);
+}
+
+html{
+    background-color: black;
+    padding-inline: 1.5rem;
+    padding-top: 2rem;
+}
+
+.READ-FIELD{
+    border-radius: 0.5rem;
+    /* border: 1px solid white; */
+    
+    padding :1rem;
+    background-color: rgba(255, 255, 255, 0.123);
+    color: black;
+
+    max-width: 30rem;
+}
+
+.data-container{
+    display: flex;
+}
+
+.data-container div{
+    flex:1;
+}
+
+.data-container div:first-child{
+    flex: 0.25;
+}
+
+.data-container div:last-child{
+    flex: 0.25;
+}
+
+.form-container{
+    /* border: 1px solid white; */
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+    max-width: 30rem;
+}
+
+.form-button-container{
+    display: flex;
+}
+
+/* Selector menuju buttom form */
+.form-button-container button{
+    color: black;
+    background-color: white;
+    height: 2.5rem;
+    padding-inline: 1rem;
+
+    font-weight: bolder;
+
+    border: none;
+    flex:1;
+}
+
+.form-button-container button.active{
+    background-color: rgb(201, 201, 201);
+}
+
+.form-button-container button:hover{
+    cursor: pointer;
+}
+
+.form-wrapper{
+    padding: 1rem;
+    background-color: rgb(201, 201, 201);
+    color: black;
+
+    display: none;
+}
+
+.form-wrapper.active{
+    display: block;
+}
+
+.form-wrapper form{
+    width: 100%;
+}
+
+/* Selector menuju pada input text */
+.form-container div form input, .submit-button{
+    color: black;
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+
+    border: none;
+    border-radius: 0.2rem;
+}
+
+/* Selector menuju pada submit button */
+.submit-button{
+    width: 25%;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    background-color: rgb(187, 187, 187);
+}
+
+/* ERROR MESSAGE */
+/* Belum kepakai */
+.error-msg{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}

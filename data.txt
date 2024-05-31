@@ -1,0 +1,6 @@
+7;Lucas Test;93
+12;Ujang Bando;93
+2;Asep Montage;99
+11;Lucas Erlangga;77
+9;Loki;100
+17;Lucas;100
